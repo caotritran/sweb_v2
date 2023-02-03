@@ -88,7 +88,7 @@
 
 - name: run command phpize to enable zip extension
   shell: |
-    cd {{ source_dir }}/{{ php8 }}/ext/zip
+    cd /root/src/{{ php8_name }}/ext/zip
     /opt/{{ php_name }}/bin/phpize
     ./configure --with-php-config=/opt/{{ php_name }}/bin/php-config
     make && make install
