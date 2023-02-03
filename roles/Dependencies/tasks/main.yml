@@ -155,7 +155,7 @@
 
 - name: install libzip new version
   shell: |
-   rpm -ivh /src/libzip-0.11.2-6.el7.psychotic.x86_64.rpm
-   rpm -ivh /src/libzip-devel-0.11.2-6.el7.psychotic.x86_64.rpm
+   rpm -ivh /root/src/libzip-0.11.2-6.el7.psychotic.x86_64.rpm
+   rpm -ivh /root/src/libzip-devel-0.11.2-6.el7.psychotic.x86_64.rpm
   ignore_errors: yes
 
