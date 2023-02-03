@@ -103,7 +103,7 @@
 
 - name: download library openssl packages for Nginx
   get_url:
-    url: https://ftp.openssl.org/source/old/1.0.2/{{ openssl }}
+    url: https://ftp.openssl.org/source/{{ openssl }}
     dest: '{{ source_dir  }}'
 
 - name: download library zlib packages for Nginx
