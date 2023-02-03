@@ -8,7 +8,7 @@ nginx: 	nginx-1.23.3.tar.gz
 nginx_name: nginx-1.23.3
 
 #php7: php-7.2.18.tar.gz
-php8: php-8.1.15
+php8: php-8.1.15.tar.gz
 php_name: php-8.1.15
 
 
