@@ -1,7 +1,7 @@
 LEMP compile with Nginx fastcgi caching + php-fpm + mariadb + wordpress + another module third Nginx:
-- Nginx 1.15.6
-- PHP 7.3.0
-- Mariadb 10.3
+- Nginx nginx-1.23.3
+- PHP php-8.1.15
+- Mariadb 10.5
 - Wordpress latest
 
 `Usage:`
