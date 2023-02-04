@@ -6,6 +6,6 @@
 	notifempty
 	sharedscripts
 	postrotate
-	[ ! -f /opt/php-7.2.18/var/run/php-fpm.pid ] || kill -USR1 cat /opt/php-7.2.18/var/run/php-fpm.pid
+	[ ! -f /opt/php-8.1.15/var/run/php-fpm.pid ] || kill -USR1 cat /opt/php-8.1.15/var/run/php-fpm.pid
 	endscript
 }
